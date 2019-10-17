@@ -76,7 +76,11 @@ Biostars json data
 
 ### Team
 Laura Bartlett - LO/OET
+
 Frances Devanbu - NCBI/CSD
+
 Igor Filippov - NCBI/IEB
+
 Anna Ripple - LHC/CSB
+
 Toshu Takamaru- LO/TSD/CaMMS

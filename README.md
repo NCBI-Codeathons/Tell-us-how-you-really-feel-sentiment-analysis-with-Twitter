@@ -47,7 +47,7 @@ increased the dimension 128; removed the drop out layer; prediction model quick 
 
 
 ## Data we ran
-### Dataset 1
+### Dataset 1 - Health specific tweets from TWitter API
 Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets vers1; looked at and labeling 0 negative; 1 positive X as neutral out of scope; label tweets that could information user needs/seeking (future prospective use) cleaning 
 Repull get rid of duplicates; retweets Health Tweet training sets
 
@@ -66,3 +66,17 @@ Outcome:
 
 #### Dataset 4
 Biostars json data
+
+
+
+
+
+
+
+
+### Team
+Laura Bartlett - LO/OET
+Frances Devanbu - NCBI/CSD
+Igor Filippov - NCBI/IEB
+Anna Ripple - LHC/CSB
+Toshu Takamaru- LO/TSD/CaMMS

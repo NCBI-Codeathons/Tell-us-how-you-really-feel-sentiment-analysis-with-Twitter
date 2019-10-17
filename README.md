@@ -1,7 +1,9 @@
 # Tell-us-how-you-really-feel-sentiment-analysis-with-Twitter
 
-Exploratory Case to see if twitter sentiment analysis informs NLM Consumer Health Group on how Consumers discussing health concerns; also inform positive/negative tweets to tailor NLM interactions with Consumers: trainings, campaigns,
+## Exploratory Case
+to see if twitter sentiment analysis informs NLM Consumer Health Group on how Consumers discussing health concerns; also inform positive/negative tweets to tailor NLM interactions with Consumers: trainings, campaigns,
 
+## Train dataset
 dataset: provided by Sentiment140 in Kaggle
 https://www.kaggle.com/kazanova/sentiment140
 
@@ -20,6 +22,7 @@ text: the text of the tweet (Lyx is cool)
 
 The Kaggle data set comes from http://help.sentiment140.com/home. Sentiment140 was created by Alec Go, Richa Bhayani, and Lei Huang, who were Computer Science graduate students at Stanford University. Sentiment140 allows you to discover the sentiment of a brand, product, or topic on Twitter.
 
+## Building the model
 10/17/19 Igor Sentiment 140 twitter 1.6 mill tweets; 
 Recurrent Neural Network model applied to data
 stripped out URLS; https
@@ -38,18 +41,28 @@ train overnight 80% accuracy ~1.0 training data 12K tweets
 ~600K unique words; vectorized setting small; fast tensor flow recipe 
 Standard Recurrent Neural Network Methodology
 
-Model Refinement:
+## Model Refinement:
 
 increased the dimension 128; removed the drop out layer; prediction model quick check script 'i feel great' ; 'i don't feel well'--model works.
 
-Apply to Reddit set (https://www.kaggle.com/amalinow/18000-reddit-comments-about-opioids)--reddit wierd data set; too much noise not sure how much about opioid; about pain in general.
 
-DataSet 1: Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets vers1; looked at and labeling 0 negative; 1 positive X as neutral out of scope; label tweets that could information user needs/seeking (future prospective use) cleaning 
+## Data we ran
+### Dataset 1
+Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets vers1; looked at and labeling 0 negative; 1 positive X as neutral out of scope; label tweets that could information user needs/seeking (future prospective use) cleaning 
 Repull get rid of duplicates; retweets Health Tweet training sets
 
 Outcome: Twitter data is very dirty and noisy - dirty in that not complete words or sentences, contains emojicons which are not easy to interrept into sentiment; noisy as in tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set but they are duplicate. 
 Figuring out how to best clean the data would need to be determined for tweets to be used. 
 
-Plan to run Model Dataset 2: Health Twitter in News Headlines ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ) 63K instances titles titles have dates; sentiment time series to see if sentiment changes
+### Dataset 2
+Apply to Reddit set (https://www.kaggle.com/amalinow/18000-reddit-comments-about-opioids)--reddit wierd data set; too much noise not sure how much about opioid; about pain in general.
 
-Toshu api biostars json data
+Outcome: 
+
+### Dataset 3
+Health Twitter in News Headlines ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ) 63K instances titles titles have dates; sentiment time series to see if sentiment changes
+
+Outcome:
+
+#### Dataset 4
+Biostars json data

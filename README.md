@@ -48,19 +48,29 @@ increased the dimension 128; removed the drop out layer; prediction model quick 
 
 ## Data we ran
 ### Dataset 1 - Health specific tweets from TWitter API
-Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets vers1; looked at and labeling 0 negative; 1 positive X as neutral out of scope; label tweets that could information user needs/seeking (future prospective use) cleaning 
-Repull get rid of duplicates; retweets Health Tweet training sets
+Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets were accessed from the Twitter API for over the past 7 days. Flu and Opioid were downloaded into seperate spreadsheets. Vaping was accessed and explored directly through the API. 
 
-Outcome: Twitter data is very dirty and noisy - dirty in that not complete words or sentences, contains emojicons which are not easy to interrept into sentiment; noisy as in tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set but they are duplicate. 
-Figuring out how to best clean the data would need to be determined for tweets to be used. 
+Flu and Opioid sets were examined by humand to lern more baout the nature of the tweets and to devise a cleaning strategy. The following fields were Twitter were brought into the spreadsheet: the Tweet text, polarity, subjectivity, and location. In additon, the humans labeled each tweet as: 0 negative; 1 positive; or X as neutral or out of scope.
+
+#### Flu
+
+#### Opioid
+
+#### Vaping
+
+Outcome: It quickly became aparant that Twitter data is very dirty and noisy - dirty in that not Tweets are contain incomplete words, user generated abbreivations for common words, sentences and phrases that are not complete thoughts, contains emojicons which are not easy to interrept into sentiment; noisy as in Tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set because they are duplicate. 
+
+Future considerations: There are many Twitter libraries that are avaible to reduce unnessicary data in tweets such slang, various spellings of a word, etc. Figuring out how to best clean the data for consumer health level health terms would need to be determined for tweets to be used for sentiment anaylsis.
 
 ### Dataset 2
-Apply to Reddit set (https://www.kaggle.com/amalinow/18000-reddit-comments-about-opioids)--reddit wierd data set; too much noise not sure how much about opioid; about pain in general.
+The 18,000+ Reddit Comments About Opioids set from Kaggle (https://www.kaggle.com/amalinow/18000-reddit-comments-about-opioids)was exaimined. It also presented issues with noise and dirt. The comments were very private and seemed to be off-topic. Some were about general pain.
 
-Outcome: 
+Outcome: Two comments were run throgh the model to test ofr valdity. 
+
+Future considerations: Much like Twitter, a plan to best clean the data would need to be devised and tested.
 
 ### Dataset 3
-Health Twitter in News Headlines ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ) 63K instances titles titles have dates; sentiment time series to see if sentiment changes
+The Health News in Twitter dataset was accessed from UCI Machine Learning Repositiory ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ). The dataset incldues tweets from major news organziations - so the majority fo the tweets are direct headlines from news sories published online. 63K instances titles titles have dates; sentiment time series to see if sentiment changes
 
 Outcome:
 

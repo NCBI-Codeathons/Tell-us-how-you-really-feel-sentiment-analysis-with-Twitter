@@ -38,14 +38,18 @@ train overnight 80% accuracy ~1.0 training data 12K tweets
 ~600K unique words; vectorized setting small; fast tensor flow recipe 
 Standard Recurrent Neural Network Methodology
 
-80% accuracy apply to Reddit set (get blurb)
+Model Refinement:
+
+increased the dimension 128; removed the drop out layer; prediction model quick check script 'i feel great' ; 'i don't feel well'--model works.
+
+Apply to Reddit set (https://www.kaggle.com/amalinow/18000-reddit-comments-about-opioids)--reddit wierd data set; too much noise not sure how much about opioid; about pain in general.
 
 DataSet 1: Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets vers1; looked at and labeling 0 negative; 1 positive X as neutral out of scope; label tweets that could information user needs/seeking (future prospective use) cleaning 
 Repull get rid of duplicates; retweets Health Tweet training sets
 
-Outcome: Twitter data is very dirty and noisy - dirty in that not complete words or sentences, contains emojicons whihc are nto easy to interrept into sentiment; noisy as in tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set but they are duplicate. 
+Outcome: Twitter data is very dirty and noisy - dirty in that not complete words or sentences, contains emojicons which are not easy to interrept into sentiment; noisy as in tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set but they are duplicate. 
 Figuring out how to best clean the data would need to be determined for tweets to be used. 
 
-DataSet 2: Running recurrent NN Kaggle on Reddit for sentiment analysis
+Dataset 2: Health Twitter in News ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ) 58K instances titles 
 
 

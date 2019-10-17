@@ -50,6 +50,6 @@ Repull get rid of duplicates; retweets Health Tweet training sets
 Outcome: Twitter data is very dirty and noisy - dirty in that not complete words or sentences, contains emojicons which are not easy to interrept into sentiment; noisy as in tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set but they are duplicate. 
 Figuring out how to best clean the data would need to be determined for tweets to be used. 
 
-Dataset 2: Health Twitter in News ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ) 63K instances titles 
+Plan to run Model Dataset 2: Health Twitter in News Headlines ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ) 63K instances titles titles have dates; sentiment time series to see if sentiment changes
 
 

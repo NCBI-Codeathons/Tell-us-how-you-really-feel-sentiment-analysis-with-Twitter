@@ -55,6 +55,7 @@ Flu and Opioid sets were examined by humand to lern more baout the nature of the
 #### Flu
 
 #### Opioid
+The opioid set contains 5,001 tweets. 
 
 #### Vaping
 
@@ -70,16 +71,20 @@ Outcome: Two comments were run throgh the model to test ofr valdity.
 Future considerations: Much like Twitter, a plan to best clean the data would need to be devised and tested.
 
 ### Dataset 3
-The Health News in Twitter dataset was accessed from UCI Machine Learning Repositiory ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ). The dataset incldues tweets from major news organziations - so the majority fo the tweets are direct headlines from news sories published online. 63K instances titles titles have dates; sentiment time series to see if sentiment changes
+The Health News in Twitter dataset was accessed from UCI Machine Learning Repositiory ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ). The data was collected in 2015 using the Twitter API. It contains health news from more than 15 major health news agencies such as BBC, CNN, and NYT - so the majority fo the tweets are direct headlines from news sories published online. 63K instances of titles have dates. Because of this, we will exaamine sentiment  and time series to see if sentiment changes. 
 
 Outcome:
+
+Future considerations
 
 ### Dataset 4
 Biostars json data
 
 
 
+Outcome:
 
+Future considerations:
 
 
 

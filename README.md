@@ -67,11 +67,11 @@ Biostars json data
 
 
 Outcomes:
-##
+
 ##Future considerations:
 
 
-##Acknowledgments: Thanks to Victor CID for sharing his personal Twitter account information for our use.
+## Acknowledgments: Thanks to Victor CID for sharing his personal Twitter account information for our use.
 
 ### Team
 Laura Bartlett - LO/OET

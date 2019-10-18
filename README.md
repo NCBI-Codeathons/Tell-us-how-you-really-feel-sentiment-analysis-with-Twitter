@@ -103,7 +103,7 @@ Future considerations: Much like Twitter, a plan to best clean the Reddit data w
 ### Biostars Dataset
 Used the Biostars API to bring in information into Pyhton. We caputured post, title, and comment text - we used 100,000 post. We filtered with 9 key words: SPR; BLAST; GeneBank; RefSeek; PubMed; PMC; CDD; PubChem; SRAtoolkit. Output will be saved in .csv to be used in the model. Out of 5000 posts, 61 contained one of 9 key words.
 
-![alt text](biostars(002).png)
+![alt text](biostars.png)
 
 ## OUTCOMES
 We have a good model from a deep learning algorithm that works at predicting sentiment that can be used to inform consumer health information services. We also have a greater understanding of social media data and the effort needed to produce a clean data set. 

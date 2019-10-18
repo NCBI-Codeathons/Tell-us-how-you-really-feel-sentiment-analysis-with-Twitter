@@ -11,40 +11,50 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 if len(sys.argv) < 6:
-    print("python news.py Health-Tweets/bbchealth.txt tokenizer.pkl weights.03-0.42.hdf5 HIV plot.png")
+    print("python news.py tokenizer.pkl weights.03-0.42.hdf5 HIV plot.png Health-Tweets/bbchealth.txt")
     exit(0)
+
+
+tk_file = sys.argv[1]
+weights = sys.argv[2]
+term = str(sys.argv[3])
+img = sys.argv[4]
+
+term = term.lower()
 
 plt.style.use(style='ggplot')
 plt.rcParams['figure.figsize'] = (10, 6)
 
-data = pd.read_csv(sys.argv[1], encoding='latin-1', header=None, names = ["id", "date", "text"], sep="|")
-
-
-data["text"] = data["text"].apply(lambda x : re.sub(r'AUDIO\:|VIDEO\:|http\S+', '', x))
-data.drop(["id"], axis=1, inplace=True)
-data["datetime"] = pd.to_datetime(data["date"])
-data["date"] = data["datetime"]
-
-with open(sys.argv[2], "rb") as fh:
+with open(tk_file, "rb") as fh:
     tk = pickle.load(fh)
 
 max_len = 140
-val_tokenized = tk.texts_to_sequences(data.text.values)
-X = pad_sequences(val_tokenized, maxlen=max_len)
+model = tf.keras.models.load_model(weights)
 
-model = tf.keras.models.load_model(sys.argv[3])
+all = pd.DataFrame()
+for i in range(5,len(sys.argv)):
+    data = pd.read_csv(sys.argv[i], encoding='latin-1', header=None, names = ["id", "date", "text"], sep="|")
+    data["text"] = data["text"].apply(lambda x : re.sub(r'AUDIO\:|VIDEO\:|http\S+', '', x))
+    data["text"] = data["text"].apply(lambda x : str(x).lower())
+    data.drop(["id"], axis=1, inplace=True)
+    data["date"] = pd.to_datetime(data["date"])
 
-y = model.predict(X, verbose=0)
-data["sentiment"] = y
+    val_tokenized = tk.texts_to_sequences(data.text.values)
+    X = pad_sequences(val_tokenized, maxlen=max_len)
 
-selected = data[data.text.str.contains(str(sys.argv[4]))]
-selected = selected.set_index(['datetime'])
-print(selected.head())
-selected["trend"] = selected["sentiment"].rolling(5).mean()
+    y = model.predict(X, verbose=0)
+    data["sentiment"] = y
+    selected = data[data.text.str.contains(term)]
+    selected = selected.set_index(['date'])
+    selected[sys.argv[i] + " trend"] = selected["sentiment"].rolling(5).mean()
+    selected.drop(["text", "sentiment"], axis=1, inplace=True)
+    all = pd.concat([all, selected], sort=False)
 
-selected.plot(x="date", y="trend")
-plt.suptitle(str(sys.argv[4]) + " sentiment trends")
-plt.savefig(sys.argv[5])
+plt.figure()
+all.plot()
+
+plt.suptitle(term + " sentiment trends")
+plt.savefig(img)
 
 
 

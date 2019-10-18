@@ -53,7 +53,7 @@ Cancer
 
 # Exploratory Datasets for Cleaning Analysis from Twitter
 
-### Dataset 1 - Health specific tweets from TWitter API
+### Health specific tweets from TWitter API
 Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets were accessed from the Twitter API for over the past 7 days. Flu and Opioid were downloaded into separate spreadsheets. Vaping was accessed and explored directly through the API. 
 
 Flu and Opioid sets were examined manually to learn the nature of the tweets and to devise a cleaning strategy. The following fields from Twitter were brought into the spreadsheet: the Tweet text, polarity, subjectivity, and location. In additon, the humans labeled each tweet as: 0 negative; 1 positive; or X as neutral or out of scope.
@@ -113,13 +113,21 @@ We have a good model from a deep learning algorithm that works at predicting sen
 Ryan Connor suggested blogs to try:
 
 random assortment of science blog things that may or may not be useful:
+
 https://python.gotrained.com/tf-idf-twitter-sentiment-analysis/
+
 http://www.rna-seqblog.com/
+
 https://mirnablog.com/
+
 http://www.lncrnablog.com/
+
 https://www.bioinformatics.org/news/?group_id=10&summaries=1
+
 https://www.reddit.com/r/flu/
+
 https://www.reddit.com/r/bioinformatics/
+
 https://www.reddit.com/r/librarians/
 
 

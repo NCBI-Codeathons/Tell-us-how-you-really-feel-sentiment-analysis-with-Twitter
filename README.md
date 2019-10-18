@@ -38,7 +38,7 @@ increased the dimension 128; removed the drop out layer; prediction model quick 
  https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ). The data was collected in 2015 using the Twitter API. It contains health news from more than 15 major health news agencies such as BBC, CNN, and NYT - so the majority fo the tweets are direct headlines from news sories published online. 63K instances of titles have dates. Because of this, we will exaamine sentiment  and time series to see if sentiment changes. 
 
 
-##Exploratory Datasets for Cleaning Analysis from Twitter
+# Exploratory Datasets for Cleaning Analysis from Twitter
 
 ### Dataset 1 - Health specific tweets from TWitter API
 Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets were accessed from the Twitter API for over the past 7 days. Flu and Opioid were downloaded into seperate spreadsheets. Vaping was accessed and explored directly through the API. 

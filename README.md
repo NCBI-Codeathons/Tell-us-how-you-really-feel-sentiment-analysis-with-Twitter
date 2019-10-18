@@ -52,7 +52,7 @@ cancer
 aids
 
 
-# Exploratory Datasets for Cleaning Analysis from Twitter
+# Exploratory Datasets for Cleaning Analysis from Twitter (weeks' worth of tweets on 3 current Health topics (10/9/19 - 10/6/19)
 
 ### Dataset 1 - Health specific tweets from TWitter API
 Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets were accessed from the Twitter API for over the past 7 days. Flu and Opioid were downloaded into seperate spreadsheets. Vaping was accessed and explored directly through the API. 
@@ -64,7 +64,7 @@ Flu and Opioid sets were examined manually to learn the nature of the tweets and
 #### Opioid (3K)
 The opioid set contains 5,001 tweets. 
 
-#### Vaping (5K)
+#### Vaping (5K)-- retweets  are the kids from jon and kate vaping yet? Python pkg twitter API back/forth hashtags with Vaping highlights vaping: anger misdirection vaping #ivapeivote
 
 Outcome: It quickly became aparant that Twitter data is very dirty and noisy - dirty in that not Tweets are contain incomplete words, user generated abbreivations for common words, sentences and phrases that are not complete thoughts, contains emojicons which are not easy to interrept into sentiment; noisy as in Tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set because they are duplicate. 
 

@@ -1,7 +1,7 @@
 # Tell-us-how-you-really-feel-sentiment-analysis-with-Twitter
 
 ## Business Case
-Pulling from the NLM JobJar repository of projects, LO/PSD #'Online health information seeking: Awareness and sentiment'# to explore how  twitter sentiment analysis might inform the NLM Consumer Health Group on how Consumers discussing health concerns; also inform positive/negative tweets so as to tailor NLM interactions with Consumers: trainings, campaigns.
+Pulling from the NLM JobJar repository of projects, LO/PSD #'Online health information seeking: Awareness and sentiment"# to explore how  twitter sentiment analysis might inform the NLM Consumer Health Group on how Consumers discussing health concerns; also inform positive/negative tweets so as to tailor NLM interactions with Consumers: trainings, campaigns.
 
 ## Train dataset
 dataset: provided by Sentiment140 in Kaggle

@@ -64,6 +64,11 @@ The opioid set contains 2,981 tweets. After filtering out duplicate tweets, the 
 Sen. Kamala Harris says president would hold industries accountable opiod epidemic I agree that
 Bernie killing opiod question leading fossil fuels
 President Trump Below Example happened Americans since CDC REDUCED Dose Pain Med
+Before cleaning
+![alt text](opioid.png)
+
+After cleaning
+![alt text](opioid_edited.png)
 
 #### Vaping (5K)
 From Twitter data was pulled from Tweepy which is a package that helps use the twitter API in Python. That data was not useful - see the word cloud - the highest tweet was about a celerbity joke:

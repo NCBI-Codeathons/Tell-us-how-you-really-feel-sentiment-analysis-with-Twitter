@@ -54,10 +54,10 @@ cancer
 ### Dataset 1 - Health specific tweets from TWitter API
 Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets were accessed from the Twitter API for over the past 7 days. Flu and Opioid were downloaded into seperate spreadsheets. Vaping was accessed and explored directly through the API. 
 
-Flu and Opioid sets were examined manually to learn the nature of the tweets and to devise a cleaning strategy. The following fields were Twitter were brought into the spreadsheet: the Tweet text, polarity, subjectivity, and location. In additon, the humans labeled each tweet as: 0 negative; 1 positive; or X as neutral or out of scope.
+Flu and Opioid sets were examined manually to learn the nature of the tweets and to devise a cleaning strategy. The following fields from Twitter were brought into the spreadsheet: the Tweet text, polarity, subjectivity, and location. In additon, the humans labeled each tweet as: 0 negative; 1 positive; or X as neutral or out of scope.
 
 #### Flu (5K)
-We filtered through the data to see if the data is usable for determining if it would be useful for consumer health, and usable int he model. As a genarlization, most of the posts that wre not out of scope were about people discussing getting the flu shot. There was a large amount of medicine advertisment. 
+We filtered through the data to see if the data is usable for determining if it would be useful for consumer health, and usable in the model. As a genarlization, most of the posts that wre not out of scope were about people discussing getting the flu shot. There was a large amount of medicine advertisment. 
 
 #### Opioid (3K)
 The opioid set contains 2,981 tweets. After filtering out duplicate tweets, the set was reduced to 1,654 = 55%. Of the remaining tweets, many were poltical:

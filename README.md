@@ -50,7 +50,10 @@ depression
 
 cancer
 
+
 aids
+![alt text](ebola-profit-nonprofit.png)
+
 
 
 # Exploratory Datasets for Cleaning Analysis from Twitter

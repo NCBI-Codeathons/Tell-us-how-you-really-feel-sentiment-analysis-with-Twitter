@@ -52,7 +52,7 @@ cancer
 aids
 
 
-# Exploratory Datasets for Cleaning Analysis from Twitter (weeks' worth of tweets on 3 current Health topics (10/9/19 - 10/6/19)
+# Exploratory Datasets for Cleaning Analysis from Twitter
 
 ### Dataset 1 - Health specific tweets from TWitter API
 Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets were accessed from the Twitter API for over the past 7 days. Flu and Opioid were downloaded into seperate spreadsheets. Vaping was accessed and explored directly through the API. 
@@ -60,13 +60,14 @@ Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets were acces
 Flu and Opioid sets were examined manually to learn the nature of the tweets and to devise a cleaning strategy. The following fields were Twitter were brought into the spreadsheet: the Tweet text, polarity, subjectivity, and location. In additon, the humans labeled each tweet as: 0 negative; 1 positive; or X as neutral or out of scope.
 
 #### Flu (5K)
+We filtered through the data to see if the data is usable for determining if it would be useful for consumer health, and usable int he model. As a genarlization, most of the posts that wre not out of scope were about people discussing getting the flu shot. There was a large amount of medicine advertisment. 
 
 #### Opioid (3K)
-The opioid set contains 5,001 tweets. 
+The opioid set contains 5,001 tweets. After filtering out duplicate tweets, the set was reduced to 
 
-#### Vaping (5K)-- retweets  are the kids from jon and kate vaping yet? Python pkg twitter API back/forth hashtags with Vaping highlights vaping: anger misdirection vaping #ivapeivote
+#### Vaping (5K)
 
-Outcome: It quickly became aparant that Twitter data is very dirty and noisy - dirty in that not Tweets are contain incomplete words, user generated abbreivations for common words, sentences and phrases that are not complete thoughts, contains emojicons which are not easy to interrept into sentiment; noisy as in Tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set because they are duplicate. 
+Outcome of examining the Twitter data: It quickly became aparant that Twitter data is very dirty and noisy - dirty in that not Tweets are contain incomplete words, user generated abbreivations for common words, sentences and phrases that are not complete thoughts, contains emojicons which are not easy to interrept into sentiment; noisy as in Tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set because they are duplicate. 
 
 Future considerations: There are many Twitter libraries that are avaible to reduce unnessicary data in tweets such slang, various spellings of a word, etc. Figuring out how to best clean the data for consumer health level health terms would need to be determined for tweets to be used for sentiment anaylsis.
 
@@ -76,7 +77,7 @@ The 18,000+ Reddit Comments About Opioids set from Kaggle (https://www.kaggle.co
 Future considerations: Much like Twitter, a plan to best clean the data would need to be devised and tested.
 
 ### Dataset 4
-Biostars json data
+Used the Biostars API to bring in information into Pyhton. We caputured post, title, and comment text - we used 100,000 post. We filtered with 9 key words: SPR; BLAST; GeneBank; RefSeek; PubMed; PMC; CDD; PubChem; SRAtoolkit. Output will be saved in .csv to be used in the model. 
 
 ## OUTCOMES
 

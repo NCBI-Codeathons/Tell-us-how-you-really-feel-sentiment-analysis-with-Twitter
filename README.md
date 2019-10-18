@@ -38,14 +38,10 @@ train overnight 80% accuracy ~1.0 training data 12K tweets (1K regular intervals
 
 training increased the dimension 128; removed the drop out layer; prediction model quick check script 'i feel great' ; 'i don't feel well'--model works.
 
-## Data on which we ran Model
+## Data on which we ran Model for Sentiment Analysis
 
 ### Health News in Twitter dataset (UCI Machine Learning Repository
 ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ). The data was collected in 2015 using the Twitter API. It contains health news from more than 15 major health news agencies such as BBC, CNN, and NYT - so the majority fo the tweets are direct headlines from news sories published online. 63K instances of titles have dates. Because of this, we will exaamine sentiment  and time series to see if sentiment changes. 
-
-
-Ran Model for sentiment analysis
-
 
 Ebola
 ![alt text](ebola-profit-nonprofit.png)

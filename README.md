@@ -1,4 +1,4 @@
-##Tell-us-how-you-really-feel-sentiment-analysis-with-Twitter <img src="tweet-birs-2.svg" alt="tweeting bird" width="80" height="90">
+## Tell-us-how-you-really-feel-sentiment-analysis-with-Twitter <img src="tweet-birs-2.svg" alt="tweeting bird" width="80" height="90">
 
 ### BUSINESS CASE
 Pulling from [the NLM Jobjar project repository](https://sharepoint.nlm.nih.gov/Projects/jobjar/Lists/Associate%20Project%20Proposals/Browse%20Projects.aspx), **LO/PSD Online health information seeking: awareness and sentiment** to develop an exploratory methodology for twitter sentiment analysis and how that might inform the NLM Consumer Health Group on positive/negative tweets to contribute towards  NLM interactions with Consumers on various fronts such as awareness campaigns, trainings.

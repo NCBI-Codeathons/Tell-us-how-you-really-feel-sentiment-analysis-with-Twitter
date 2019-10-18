@@ -42,6 +42,7 @@ Ran Model for sentiment analysis
 profit/nonprofit
 
 ebola
+![alt text](ebola-profit-nonprofit.png)
 
 hiv
 

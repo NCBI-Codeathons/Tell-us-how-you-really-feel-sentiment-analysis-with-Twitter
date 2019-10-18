@@ -42,7 +42,7 @@ Ran Model for sentiment analysis
 profit/nonprofit
 
 ebola
-![alt text](ebola-profit-nonprofit.png
+![alt text](ebola-profit-nonprofit.png)
 
 cancer
 ![alt text](cancer-profit-nonprofit.png)

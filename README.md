@@ -39,8 +39,6 @@ training increased the dimension 128; removed the drop out layer; prediction mod
 Ran Model for sentiment analysis
 
 
-profit/nonprofit
-
 ebola
 ![alt text](ebola-profit-nonprofit.png)
 

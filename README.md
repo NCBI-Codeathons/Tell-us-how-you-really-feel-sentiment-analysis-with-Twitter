@@ -68,7 +68,7 @@ Before cleaning
 ![alt text](opioid.png)
 
 After cleaning
-![alt text](twitter_data/opioid_edited.png)
+![alt text](/twitter_data/opioid_edited.png)
 
 #### Vaping (5K)
 From Twitter data was pulled from Tweepy which is a package that helps use the twitter API in Python. That data was not useful - see the word cloud - the highest tweet was about a celerbity joke:

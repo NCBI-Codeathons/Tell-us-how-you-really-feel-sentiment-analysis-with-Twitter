@@ -52,7 +52,7 @@ cancer
 
 
 aids
-![alt text](ebola-profit-nonprofit.png)
+![alt text](cancer-profit-nonprofit.png)
 
 
 

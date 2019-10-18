@@ -1,7 +1,7 @@
 # Tell-us-how-you-really-feel-sentiment-analysis-with-Twitter
 
-## Exploratory Case
-to see if twitter sentiment analysis informs NLM Consumer Health Group on how Consumers discussing health concerns; also inform positive/negative tweets to tailor NLM interactions with Consumers: trainings, campaigns,
+## Business Case
+Pulling from the NLM JobJar repository of projects, LO/PSD #'Online health information seeking: Awareness and sentiment'# to explore how  twitter sentiment analysis might inform the NLM Consumer Health Group on how Consumers discussing health concerns; also inform positive/negative tweets so as to tailor NLM interactions with Consumers: trainings, campaigns.
 
 ## Train dataset
 dataset: provided by Sentiment140 in Kaggle
@@ -47,6 +47,13 @@ increased the dimension 128; removed the drop out layer; prediction model quick 
 
 
 ## Data we ran
+
+### Health News in Twitter dataset (UCI Machine Learning Repository
+ https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ). The data was collected in 2015 using the Twitter API. It contains health news from more than 15 major health news agencies such as BBC, CNN, and NYT - so the majority fo the tweets are direct headlines from news sories published online. 63K instances of titles have dates. Because of this, we will exaamine sentiment  and time series to see if sentiment changes. 
+
+
+
+
 ### Dataset 1 - Health specific tweets from TWitter API
 Three subanalyses of Flu (5K), Opioid (3K) Vaping ~5K worth of tweets were accessed from the Twitter API for over the past 7 days. Flu and Opioid were downloaded into seperate spreadsheets. Vaping was accessed and explored directly through the API. 
 
@@ -69,13 +76,6 @@ The 18,000+ Reddit Comments About Opioids set from Kaggle (https://www.kaggle.co
 Outcome: Two comments were run throgh the model to test ofr valdity. 
 
 Future considerations: Much like Twitter, a plan to best clean the data would need to be devised and tested.
-
-### Dataset 3
-The Health News in Twitter dataset was accessed from UCI Machine Learning Repositiory ( https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ). The data was collected in 2015 using the Twitter API. It contains health news from more than 15 major health news agencies such as BBC, CNN, and NYT - so the majority fo the tweets are direct headlines from news sories published online. 63K instances of titles have dates. Because of this, we will exaamine sentiment  and time series to see if sentiment changes. 
-
-Outcome:
-
-Future considerations
 
 ### Dataset 4
 Biostars json data

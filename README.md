@@ -5,14 +5,13 @@ Pulling from [the NLM Jobjar project repository](https://sharepoint.nlm.nih.gov/
 
 ## MATERIALS AND METHODS
 Training dataset for building the Model dataset: [Sentiment140 in Kaggle]https://www.kaggle.com/kazanova/sentiment140]
-
-Sentiment140 dataset conains 1,600,000 tweets extracted using the Twitter API. The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment.
+Sentiment140 dataset conTains 1,600,000 tweets extracted using the Twitter API. The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment.
 
 ## Building the model
 Igor Sentiment 140 twitter 1.6 mill tweets; 
-Recurrent Neural Network model applied to data
+Recurrent Neural Network model applied to data standard DL state of the art RNN to use performs well; takes into account words in tweets and how combined together learn semantic meaning for each word and how they combined together model predicts into sentiment
 stripped out URLS; https
-stripped out @
+stripped out @ ; 
 modified sentiment scale from 0-4 to 0/1 (binary)
 80% ~ 1.2 million tweets 
 Trained the model on 1.2 mill tweets
@@ -22,20 +21,34 @@ Bi LSTM layer 32
 fully connected layer with 64 dimensional output
 dropout .5 regularization method standard approach keep model from overfeeding
 output layer single sigmoid function (generates output representing between 0-1 )
-train overnight 80% accuracy ~1.0 training data 12K tweets
 
-~600K unique words; vectorized setting small; fast tensor flow recipe 
-Standard Recurrent Neural Network Methodology
+train overnight 80% accuracy ~1.0 training data 12K tweets (1K regular intervals)
+
+20% leftover run validation20% validation set accuracy 80%
+
+
+
 
 ## Model Refinement:
 
-increased the dimension 128; removed the drop out layer; prediction model quick check script 'i feel great' ; 'i don't feel well'--model works.
+training increased the dimension 128; removed the drop out layer; prediction model quick check script 'i feel great' ; 'i don't feel well'--model works.
 
 
 ## Data on which we ran Model
 
 ### Health News in Twitter dataset (UCI Machine Learning Repository
  https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter ). The data was collected in 2015 using the Twitter API. It contains health news from more than 15 major health news agencies such as BBC, CNN, and NYT - so the majority fo the tweets are direct headlines from news sories published online. 63K instances of titles have dates. Because of this, we will exaamine sentiment  and time series to see if sentiment changes. 
+
+
+Ran Model for sentiment analysis
+
+
+profit/nonprofit
+ebola
+hiv
+depression
+cancer
+aids
 
 
 # Exploratory Datasets for Cleaning Analysis from Twitter
@@ -64,22 +77,23 @@ Future considerations: Much like Twitter, a plan to best clean the data would ne
 ### Dataset 4
 Biostars json data
 
-## RESULTS
+## OUTCOMES
 
-## CONCLUSIONS
 
 ## FUTURE CONSIDERSATIONS:
 
+Biostars json data--still 
+
+
+## Model Refinement:
+
+increased the dimension 128; removed the drop out layer; prediction model quick check script 'i feel great' ; 'i don't feel well'--model works.
 
 ## Acknowledgments: Thanks to Victor CID for sharing his personal Twitter account information for our use.
 
 ### Team
 Laura Bartlett - LO/OET
-
 Frances Devanbu - NCBI/CSD
-
 Igor Filippov - NCBI/IEB
-
 Anna Ripple - LHC/CgSB
-
 Toshu Takamaru- LO/TSD/CaMMS

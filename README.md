@@ -14,7 +14,7 @@ Recurrent Neural Network (RNN) model applied to data;
 
 State of the art RNN used to build model.  RNN performs well; takes into account words in tweets and how combined together to learn semantic meaning for each word and how when combined together model predicts sentiment.
 
-stripped out URLS; https; stripped out @ ; 
+stripped out:URLs, https, @ ; 
 
 modified sentiment scale from 0-4 to 0/1 (binary)
 

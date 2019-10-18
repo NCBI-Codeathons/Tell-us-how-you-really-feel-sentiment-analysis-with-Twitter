@@ -46,12 +46,7 @@ ebola
 
 hiv
 
-depression
-
 cancer
-
-
-aids
 ![alt text](cancer-profit-nonprofit.png)
 
 

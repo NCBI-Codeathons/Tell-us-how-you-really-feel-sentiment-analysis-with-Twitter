@@ -62,26 +62,36 @@ Flu and Opioid sets were examined manually to learn the nature of the tweets and
 We filtered through the data to see if the data is usable for determining if it would be useful for consumer health, and usable in the model. As a genarlization, most of the posts that wre not out of scope were about people discussing getting the flu shot. There was a large amount of medicine advertisment. 
 
 #### Opioid (3K)
-The opioid set contains 2,981 tweets. After filtering out duplicate tweets, the set was reduced to 1,654 = 55%. Of the remaining tweets, many were poltical:
+The opioid set contains 2,981 tweets. After filtering out duplicate tweets, the set was reduced to 1,654 = 55%. Of the remaining tweets, many were political:
+
 Sen. Kamala Harris says president would hold industries accountable opiod epidemic I agree that
+
 Bernie killing opiod question leading fossil fuels
+
 President Trump Below Example happened Americans since CDC REDUCED Dose Pain Med
+
 Before cleaning
+
 ![alt text](opioid.png)
 
 After cleaning
+
 ![alt text](/twitter_data/opiod_edited.png)
 
 #### Vaping (5K)
 From Twitter data was pulled from Tweepy which is a package that helps use the twitter API in Python. That data was not useful - see the word cloud - the highest tweet was about a celerbity joke:
+
 kids jon kate plus vaping yet
+
 Pulled more granular information, by doing lots of small grabs using Python Twitter Package. Instaed of looking at 2,000 tweets at a time, we looked at 100 at a time with the hastags, and then making further small iterations. The focus turned to look into tweets to see if there was anything useful; this was a manual curation approoch. 
 A few different directions were followed: people's frustration and anger:
+
 "I vape I vote" and "Vaping saved my life"
+
 This lead to two issues that can inform consumer health; these are issues inportant to people and worth knwiwng: 1) there are alot of people who are very loud about the use of vaping to stop smoking cigerettes and 2) the vape illness crisis has been conflated with the teen vaping crisis; they are seperate issues. Also, the vaping illness has been associated with e-cigerettes which is masking the fact that most of illness has currently been associated with THC vaping. People are angery about this for two reason: 1) it has added to the bans on nicotine vaping; and 2) it has not been effective at keeping people safe because they do not know they need to be cautious of e-THC prodcuts. Conclusion: there is a potential for useful conclusions drawn from tweets, however it took 2 days of manual curation  examination which may be too burdensome for NLM. 
 
 #### Outcome of examining the Twitter data
-It quickly became apparent that Twitter data is very dirty and noisy - dirty in that not Tweets are contain incomplete words, user generated abbreivations for common words, sentences and phrases that are not complete thoughts, contains emojicons which are not easy to interrept into sentiment; noisy as in Tweets that are wrongly associated with hashtag subject areas, advertising for products, retweets adds bulk to the data set because they are duplicate. 
+Twitter data is very dirty and noisy.  For example, Twitter contains incomplete words, user generated abbreivations for common words, sentences and phrases that are not complete thoughts, contains emojicons which are not easy to interpret into sentiment. Tweets can be  wrongly associated with hashtag subject areas, advertising for products. Retweets adds bulk to the data set because they are duplicative. 
 
 Future considerations: There are many Twitter libraries that are availble to reduce unnecessary data in tweets such slang, various spellings of a word, etc. Figuring out how to best clean the data for consumer health level health terms would need to be determined for tweets to be used for sentiment anaylsis.
 
@@ -92,6 +102,8 @@ Future considerations: Much like Twitter, a plan to best clean the Reddit data w
 
 ### Biostars Dataset
 Used the Biostars API to bring in information into Pyhton. We caputured post, title, and comment text - we used 100,000 post. We filtered with 9 key words: SPR; BLAST; GeneBank; RefSeek; PubMed; PMC; CDD; PubChem; SRAtoolkit. Output will be saved in .csv to be used in the model. Out of 5000 posts, 61 contained one of 9 key words.
+
+![alt text](biostars(002).png)
 
 ## OUTCOMES
 We have a good model from a deep learning algorithm that works at predicting sentiment that can be used to inform consumer health information services. We also have a greater understanding of social media data and the effort needed to produce a clean data set. 

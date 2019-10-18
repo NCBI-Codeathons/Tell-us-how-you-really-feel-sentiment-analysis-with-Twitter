@@ -1,9 +1,9 @@
 # Tell-us-how-you-really-feel-sentiment-analysis-with-Twitter
 
-## Business Case
+## BUSINESS CASE
 Pulling from [the NLM Jobjar project repository](https://sharepoint.nlm.nih.gov/Projects/jobjar/Lists/Associate%20Project%20Proposals/Browse%20Projects.aspx), **LO/PSD Online health information seeking: awareness and sentiment** to develop an exploratory methodology for twitter sentiment analysis and how that might inform the NLM Consumer Health Group on positive/negative tweets to contribute towards  NLM interactions with Consumers on various fronts such as awareness campaigns, trainings.
 
-## Materials and Methods
+## MATERIALS AND METHODS
 Training dataset for building the Model dataset: [Sentiment140 in Kaggle]https://www.kaggle.com/kazanova/sentiment140]
 
 Sentiment140 dataset conains 1,600,000 tweets extracted using the Twitter API. The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment.
@@ -64,11 +64,11 @@ Future considerations: Much like Twitter, a plan to best clean the data would ne
 ### Dataset 4
 Biostars json data
 
+## RESULTS
 
+##CONCLUSIONS
 
-Outcomes:
-
-##Future considerations:
+##FUTURE CONSIDERSATIONS:
 
 
 ## Acknowledgments: Thanks to Victor CID for sharing his personal Twitter account information for our use.

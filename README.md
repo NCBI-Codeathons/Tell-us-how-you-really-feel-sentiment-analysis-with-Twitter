@@ -14,7 +14,7 @@ Recurrent Neural Network (RNN) model applied to data;
 
 State of the art RNN used to build model.  RNN performs well; takes into account words in tweets and how combined together to learn semantic meaning for each word and how when combined together model predicts sentiment.
 
-stripped out:URLs, https, @ ; 
+stripped out: URLs, https, @ ; 
 
 modified sentiment scale from 0-4 to 0/1 (binary)
 
@@ -111,7 +111,7 @@ https://www.reddit.com/r/bioinformatics/
 https://www.reddit.com/r/librarians/
 
 
-## Acknowledgments: Thanks to Victor CID for sharing his personal Twitter account information for our use.
+## Acknowledgments: Thanks to Victor Cid for sharing his personal Twitter account information for our use.
 
 ### Team
 Laura Bartlett - LO/OET

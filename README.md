@@ -101,7 +101,11 @@ https://www.reddit.com/r/librarians/
 
 ### Team
 Laura Bartlett - LO/OET
+
 Frances Devanbu - NCBI/CSD
+
 Igor Filippov - NCBI/IEB
+
 Anna Ripple - LHC/CgSB
+
 Toshu Takamaru- LO/TSD/CaMMS

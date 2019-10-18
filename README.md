@@ -23,7 +23,7 @@ modified sentiment scale from 0-4 to 0/1 (binary)
 Trained the model on 1.2 mill tweets
 
 ## Model
-embedding layer with 64 dimension
+Embedding layer with 64 dimension
 Bidirectional LSTM 64 dimension 
 Bi LSTM layer 32
 fully connected layer with 64 dimensional output

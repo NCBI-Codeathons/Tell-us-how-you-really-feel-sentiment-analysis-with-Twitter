@@ -66,9 +66,9 @@ Biostars json data
 
 ## RESULTS
 
-##CONCLUSIONS
+## CONCLUSIONS
 
-##FUTURE CONSIDERSATIONS:
+## FUTURE CONSIDERSATIONS:
 
 
 ## Acknowledgments: Thanks to Victor CID for sharing his personal Twitter account information for our use.

@@ -84,10 +84,18 @@ Biostars json data
 
 Biostars json data--still 
 
+Ryan Connor suggested blogs to try:
 
-## Model Refinement:
+random assortment of science blog things that may or may not be useful:
+https://python.gotrained.com/tf-idf-twitter-sentiment-analysis/
+http://www.rna-seqblog.com/
+https://mirnablog.com/
+http://www.lncrnablog.com/
+https://www.bioinformatics.org/news/?group_id=10&summaries=1
+https://www.reddit.com/r/flu/
+https://www.reddit.com/r/bioinformatics/
+https://www.reddit.com/r/librarians/
 
-increased the dimension 128; removed the drop out layer; prediction model quick check script 'i feel great' ; 'i don't feel well'--model works.
 
 ## Acknowledgments: Thanks to Victor CID for sharing his personal Twitter account information for our use.
 

@@ -9,14 +9,20 @@ Sentiment140 dataset contains 1,600,000 tweets extracted using the Twitter API. 
 
 ## Building the model
 Sentiment 140 twitter 1.6 mill tweets; 
-Recurrent Neural Network model applied to data; 
-state of the art Recurrent Neural Network(RNN) used to build model.  RNN performs well; takes into account words in tweets and how combined together to learn semantic meaning for each word and how when combined together model predicts into sentiment
-stripped out URLS; https
-stripped out @ ; 
+
+Recurrent Neural Network (RNN) model applied to data; 
+
+State of the art RNN used to build model.  RNN performs well; takes into account words in tweets and how combined together to learn semantic meaning for each word and how when combined together model predicts sentiment.
+
+stripped out URLS; https; stripped out @ ; 
+
 modified sentiment scale from 0-4 to 0/1 (binary)
+
 80% ~ 1.2 million tweets 
+
 Trained the model on 1.2 mill tweets
-Model: embedding layer with 64 dimension
+
+## Model: embedding layer with 64 dimension
 Bidirectional LSTM 64 dimension 
 Bi LSTM layer 32
 fully connected layer with 64 dimensional output
